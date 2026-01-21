@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "structural_integrity",
+    "version": "${version}",
+    "name": "Structural Integrity",
+    "description": "Realistic building physics: Beams, pillars, and collapse rules.",
+    "authors": [
+        "Eni"
+    ],
+    "contact": {
+        "homepage": "https://example.com/",
+        "sources": "https://github.com/username/PhysicsEngine"
+    },
+    "license": "All Rights Reserved",
+    "icon": "assets/structural_integrity/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.eni.physics.PhysicsMod"
+        ]
+    },
+    "mixins": [
+        "physics.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.5",
+        "minecraft": "~1.21.1",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
